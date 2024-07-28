@@ -1,0 +1,1 @@
+aws cognito-idp admin-initiate-auth --user-pool-id ????????? -client-id ????????? --auth-flow ADMIN_NO_SRP_AUTH --auth-parameters USERNAME=HELLO@example.com, PASSWORD=123456
