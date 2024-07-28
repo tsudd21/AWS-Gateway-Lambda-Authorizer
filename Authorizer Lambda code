@@ -1,7 +1,7 @@
 export const handler = async(event) => {
     console.log('event', event)
 
-    const token = event['authorizationToken']
+    const token = event['auth-token']
 
     console.log('token', token)
     
